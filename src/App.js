@@ -3,10 +3,13 @@ import { Greet } from "./components/Greet";
 function App() {
   return (
     <div className="App">
-      <Greet />
-      <Greet />
-      <Greet />
+      <Greet name="Sade" heroName="Batman" />
+      <Greet name="Abebe" heroName="SuperMan" />
+      <Greet name="Where" heroName="Wonder Woman">
+        <p>This is children props</p>
+      </Greet>
     </div>
+    //Props are immutable
   );
 }
 
