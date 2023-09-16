@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import { Greet } from "./components/Greet";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Greet />
+      <Greet />
+      <Greet />
     </div>
   );
 }
 
-export default App;
+export default App; // Defalt export- U can import the Componet with any Name U like
+
+// Named Export
+// if we append export to function export const funcName---we have to import the func with exact name
