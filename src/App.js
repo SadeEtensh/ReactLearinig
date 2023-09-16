@@ -1,6 +1,7 @@
 import "./App.css";
 import { Greet } from "./components/Greet";
 import { Message } from "./components/Message";
+import { NameList } from "./components/NameList";
 import { UserGreeting } from "./components/UserGreeting";
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </Greet>
       <Message />
       <UserGreeting />
+      <NameList />
     </div>
     //Props are immutable
   );
